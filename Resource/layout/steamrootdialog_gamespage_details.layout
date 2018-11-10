@@ -62,6 +62,7 @@
 
     place 	{ control=gametitleheader region=headertext align=top-center }
     place	{ control=gamesubheader region=headertext start=gametitleheader dir=down align=top-center }
+    place { control=compatsubheader region=headertext start=gametitleheader dir=down align=top-center y=110 height=50}
 
     place
     {
