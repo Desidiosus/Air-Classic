@@ -8,7 +8,7 @@
 			tabposition=1
 		}
 	}
-	
+
 	styles
 	{
 		RichText //for emptylist
@@ -16,11 +16,11 @@
 			textcolor=labeldisabled
 			selectedtextcolor=labeldisabled
 		}
-				
+
 		"CGamesListPanel URLLabel"
 		{
-			
-			padding-left=4
+			//developer inset, disabled because it causes the metascore/dev name to get cut off
+			//padding-left=4
 		}
 
 		Scrollbar
@@ -32,8 +32,8 @@
 	colors
 	{
 		ListPanel.PostSectionLeading	12
-	}	
-	
+	}
+
 	layout
 	{
 		// content pages
